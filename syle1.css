@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.style_toggle_button {
+    background-color: #ade4e74b;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a:link, a:visited{
+    color:#000;
+    text-decoration: none;
+}
+.link-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.box-title h1 {
+    color: #000; 
+    font-family: 'Elephant', Arial, sans-serif; 
+    font-size: 80px; 
+}
+
+.header{
+    color:#000;
+    font-family: 'Elephant', 'Arial', 'sans-serif';
+    font-size: 40px;
+    text-align: center;
+}
+
+.box-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 330px;
+    margin: 0 auto; 
+}
+
+
+
+.box-items .link  {
+    margin-top: 5px;
+    color: #000; 
+    font-family: 'Britannic Bold', Arial, sans-serif; 
+    font-size: 20px;
+}
+
+
+
+.about-me h1 {
+    color: #000; 
+    font-family: 'Britannic Bold', Arial, sans-serif; 
+    font-size: 28px; 
+}
+
+.resume {
+    text-align: center;
+    padding: 20px;
+}
+
+.resume h2 {
+    color: #000; 
+    font-family: 'Britannic Bold', Arial, sans-serif; 
+    font-size: 28px; 
+}
+
+.resume a img {
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column {
+    width: 50%;
+    padding: 20px;
+}
+
+.project-section h2 {
+    color: #000;
+    font-family: 'Britannic Bold', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+.project-section p {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    text-align: justify;
+    margin: 0;
+    padding: 0 15px; 
+    max-width: 600px; 
+}
+
+
+.project-image {
+    float: left; 
+    margin-right: 20px; 
+    width: 200px; 
+    height: auto;
+}
+
+
+.project-section {
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-bottom: 20px; 
+} 
+
+
+.containerP {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.service-section h2 {
+    color: #000;
+    font-family: 'Britannic Bold', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+.service-section p {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0 15px; 
+    max-width: 600px; 
+}
+
+
+.service-image {
+    float: left; 
+    margin-right: 0 20px 20px 0; 
+    margin-left: 0 10px 10px 0;
+    width: 200px; 
+    height: auto;
+}
+
+
+.service-section {
+    overflow: hidden; 
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-bottom: 20px; 
+} 
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.back-to-home {
+    text-align: center;
+
+}
+
+.about-me p a {
+    color: blue;
+}
+
+.project-section p a{
+    color: blue;
+}
+
+.column p a{
+    color: blue;
+}
+
+
+.jbox {
+    display: none;
+}
